@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #512da8;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  .loginButton,
+  .signupButton,
+  .logoutButton {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loginButton:hover,
+  .signupButton:hover,
+  .logoutButton:hover {
+    background-color: #eee;
+  }
+  
